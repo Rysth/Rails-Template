@@ -52,6 +52,8 @@ group :development, :test do
   gem 'debug', platforms: %i[mri windows]
   gem 'rails-controller-testing'
   gem 'rspec-rails'
+  gem 'letter_opener'
+  gem 'shoulda-matchers', '~> 5.3'
 end
 
 group :development do
@@ -73,3 +75,5 @@ end
 
 gem 'foreman', '~> 0.87.2'
 gem 'tailwindcss-rails', '~> 2.0'
+
+gem "devise", "~> 4.9"
