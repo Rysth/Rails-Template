@@ -15,6 +15,7 @@
 - [💻 Getting Started](#getting-started)
   - [Install](#install)
   - [Usage](#usage)
+  - [Usage](#linters)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -68,7 +69,7 @@
 
 To get a local copy up and running, follow these steps.
 
-### Install
+### Install <a name="install"></a>
 
 Install this project with:
 
@@ -77,7 +78,7 @@ Install this project with:
   npm install
 ```
 
-### Usage
+### Usage <a name="usage"></a>
 
 To run the project, execute the following command:
 
@@ -85,11 +86,29 @@ To run the project, execute the following command:
   rails server
 ```
 
+And to execute this with TailwindCSS:
+
+```sh
+  ./bin/dev
+```
+
+### Linters <a name="linters"></a>
+
+Use this command to fix **Rubocop Linter** Errors:
+
+```sh
+  rubocop -A
+```
+
+Use this command to fix **Stylelint** Errors:
+
+```sh
+  npx stylelint "**/*.{css,scss}" --fix
+```
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
