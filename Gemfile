@@ -51,9 +51,9 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem}
   gem 'bullet'
   gem 'debug', platforms: %i[mri windows]
+  gem 'letter_opener'
   gem 'rails-controller-testing'
   gem 'rspec-rails'
-  gem 'letter_opener'
   gem 'shoulda-matchers', '~> 5.3'
 end
 
@@ -74,6 +74,6 @@ group :test do
   gem 'selenium-webdriver'
 end
 
+gem 'devise', '~> 4.9'
 gem 'foreman', '~> 0.87.2'
 gem 'tailwindcss-rails', '~> 2.0'
-gem "devise", "~> 4.9"
