@@ -1,6 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
+  <img src="https://placehold.co/1500x450" />
   <h3><b>Your Name</b></h3>
 </div>
 
@@ -24,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 RoR Blog App <a name="about-project"></a>
+# 📖 Ruby on Rails Template <a name="about-project"></a>
 
-**RoR Blog App** is a simple backend application where we can interact with users, posts, comments, and likes.
+**Ruby on Rails Template** description...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -36,6 +37,7 @@
   <summary>Client</summary>
   <ul>
     <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+    <li><a href="https://www.tailwindcss.com/">TailwindCSS</a></li>
   </ul>
 </details>
 
@@ -57,9 +59,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Interact with Users**
-- **Add Comments and Likes as Users**
-- **Look new post every day**
+- **Key Feature**
+- **Key Feature**
+- **Key Feature**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,8 +123,8 @@ Use this command to fix **Stylelint** Errors:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Implement a user interface with React.**
-- [ ] **Make a simple console interface to handle queries.**
+- [ ] **Future Feature**
+- [ ] **Future Feature**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
