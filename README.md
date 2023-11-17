@@ -15,7 +15,7 @@
 - [💻 Getting Started](#getting-started)
   - [Install](#install)
   - [Usage](#usage)
-  - [Usage](#linters)
+  - [Linters](#linters)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
