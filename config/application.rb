@@ -8,6 +8,8 @@ Bundler.require(*Rails.groups)
 
 module RoRTemplate
   class Application < Rails::Application
+    # In config/application.rb, add the following line at the top of the Application class definition:  
+    config.api_only = true
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.1
 

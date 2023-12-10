@@ -82,4 +82,6 @@ Rails.application.configure do
 
   # Raise error when a before_action's only/except options reference missing actions
   config.action_controller.raise_on_missing_callback_actions = true
+  # To render debugging information preserving the response format, use the value :api.
+  config.debug_exception_response_format = :api
 end
